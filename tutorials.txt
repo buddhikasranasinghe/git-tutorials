@@ -1,3 +1,8 @@
 GIT BASICS
 
 git init -- inirtialize git repository
+git status -- check current status of local repository
+git add . -- add all changes to staging area. here you can add file one by one replacing file name insteada of dot ('.')
+git commit -m 'commit message' -- add commit to changes
+git restore --staged <file_name> -- remove file from staging area
+git log -- see all commits i added
