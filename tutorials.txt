@@ -1,0 +1,3 @@
+GIT BASICS
+
+git init -- inirtialize git repository
