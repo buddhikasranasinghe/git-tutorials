@@ -6,3 +6,11 @@ git add . -- add all changes to staging area. here you can add file one by one r
 git commit -m 'commit message' -- add commit to changes
 git restore --staged <file_name> -- remove file from staging area
 git log -- see all commits i added
+git stash -- remove changes and go previous commit changes
+git remote add origin https://github.com/<user_pprivate_Account>/<your_repository>.git -- link local repository with online. here below link define as origin
+git push origin <branch_name> -- here origin means above url
+HEAD -- head is a pointer when checkout between branches its point to the current branch. when adding commits all commits are added to the head
+fork -- get clone of another project of another owner and without editing permission
+git remote add upstream https://github.com/<account_of_another_user>/<reository_name>.git -- upstream define another account repository. link local repository with another account repository
+git reset <commit_hash> -- all -commit after this commit will be remove from staging area
+git rebase -i <commit_hash> -- marge multiple commits to a single commit on same branch. after execute this command choose what are the commit wwant to pick(dont merge) and squash (marge), after you have to add message to coplete commit merging
